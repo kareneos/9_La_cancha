@@ -1,0 +1,54 @@
+*{
+	position: absolute;
+}
+/*Cancha*/
+div{
+	background-color: #2EB562;
+	border:2px solid white;
+}
+.cancha{
+	height: 400px;
+	width: 700px;
+}
+.limitecancha{
+	height: 350px;
+	width: 650px;
+	margin: 20px;
+}
+
+/*porterias*/
+#porteriaI{
+	height: 150px;
+	width: 80px; 
+	top:100px;
+	border-left: 2px solid #2EB562;
+}
+#porteriaD{
+	height: 150px;
+	width: 80px; 
+	top:100px;
+	right: 0px;
+	border-right: 2px solid #2EB562;
+}
+/*centro de cancha*/
+#centrocancha{
+	height: 150px;
+	width: 150px; 
+	top:100px;
+	left: 250px;
+	border-radius: 75%; 
+}
+/*pelota izquierda*/
+#porteriaI *{
+	left: 70px;
+}
+/*pelota del centro*/
+#centrocancha *{
+	left: 75px;
+	top: -50px;
+}
+/*pelota derecho*/
+#porteriaD *{
+	left: -30px;
+	bottom:0px;
+}
